@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net4.6.1</TargetFramework>
+    <!--<TargetFramework>net4.5</TargetFramework>-->
+    <Version>1.0.0</Version>
+    <RootNamespace>SSDTScaffolderConsole</RootNamespace>
+    <AssemblyName>SSDTScaffolderConsole</AssemblyName>
+    <SatelliteResourceLanguages>en;</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20303.1"  />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SSDTScaffolder.Lib\SSDTScaffolder.Lib.csproj" />
+  </ItemGroup>
+
+</Project>
